@@ -86,6 +86,10 @@
     .hero-right img {
       width: 70%;
     }
+
+    .hero-right .liquid-shape {
+      left: 10%;
+    }
   
     .hero-left {
       text-align: center;
