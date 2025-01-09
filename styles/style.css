@@ -292,14 +292,6 @@ nav ul li a:hover {
   padding: var(--sectionPadding);
 }
 
-.services .pre-title {
-  margin: 0 auto;
-}
-
-.services-title {
-  text-align: center;
-}
-
 .service {
   padding: 3rem 2rem;
   text-align: center;
