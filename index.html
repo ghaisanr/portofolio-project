@@ -20,6 +20,7 @@
             <ul>
               <li><a href="#services">Services</a></li>
               <li><a href="#portfolios">Portfolio</a></li>
+              <li><a href="#gallery">Gallery</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#contact">Contact</a></li>
               <li>
@@ -41,9 +42,11 @@
           <div class="hero-left">
             <h1 class="hero-name"><span>Hi</span>! I'm Ghaisan Rabbani </h1>
             <div class="change-text">
-              <h3>And I'm</h3>
+              <h3>And I'm Data </h3>
               <h3>
-                <span class="word">Data Science</span>
+                <span id="rotating-text" class="word">Enthusiast</span>
+                <span id="rotating-text" class="word">Science</span>
+                <span id="rotating-text" class="word">Analyst</span>
               </h3>
             </div>
             <p>
@@ -150,25 +153,31 @@
       </div>
     </section>
     <!-- End Services -->
-
+    
     <!-- Portfolios -->
     <section id="portfolios">
       <div class="portfolios main-container">
         <h3 class="pre-title">My Works</h3>
         <h1 class="section-title">Featured Portfolios</h1>
-
+        <div class="portfolio-filters">
+          <button class="filter-btn active" data-filter="all">All</button>
+          <button class="filter-btn" data-filter="Strategic">Strategic Solutions</button>
+          <button class="filter-btn" data-filter="Project">Project Methodology</button>
+        </div>
+    
+        <!-- Portfolio Grid -->
         <div class="grid-3">
-          <!-- Portfolio 1 -->
-          <div class="portfolio">
+
+        <!-- Portfolio Startegic Solustions -->
+
+          <!-- Portfolio Item 1 -->
+          <div class="portfolio Strategic">
             <div class="portfolio-cover">
-              <img
-                src="./images/istockphoto-518657226-612x612.jpg"
-                alt="Portfolio 1"
-              />
+              <img src="./images/istockphoto-518657226-612x612.jpg" alt="portfolio 1">
             </div>
             <div class="portfolio-info">
               <div class="portfolio-title">
-                <h4>YNC TLC analyze</h4>
+                <h4>NYC TLC Analyze</h4>
                 <a href="https://docs.google.com/presentation/d/1pcbkydtGUJ80YVdlqaNu-2S665g66PQvfwdKIUmYmDo/edit#slide=id.g31be5d89334_0_8" class="portfolio-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -183,9 +192,10 @@
                 </a>
               </div>
               <div class="portfolio-tags">
-                <div>TLC</div>
-                <div>Business</div>
-                <div>Analysis</div>
+                <div>Presentation</div>
+                <div>Juypiter Notebook</div>
+                <div>Tableau</div>
+                <div>Problem Solving</div>
               </div>
               <p>
                 The purpose of this analysis is to provide actionable insights into how dynamic pricing, availability patterns, and tipping affect TLC companies in new york. By leveraging data-driven insights, this analysis helps optimize pricing strategies to increase revenue levels, and improve customer satisfaction.
@@ -193,17 +203,14 @@
             </div>
           </div>
 
-          <!-- Portfolio 2 -->
-          <div class="portfolio">
+          <!-- Portfolio Item 2 -->
+          <div class="portfolio Strategic">
             <div class="portfolio-cover">
-              <img
-                src="./images/usedcars.jpg"
-                alt="Portfolio 2"
-              />
+              <img src="./images/usedcars.jpg" alt="portfolio 2">
             </div>
             <div class="portfolio-info">
               <div class="portfolio-title">
-                <h4>Predict Price for Used Cars's </h4>
+                <h4>Predict Price for Used Cars's</h4>
                 <a href="https://docs.google.com/presentation/d/1a5lC8VB_F-mNn3awetx3TH6mslrHmM7b_0OOzBrYyY4/edit?usp=sharing" class="portfolio-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -218,28 +225,26 @@
                 </a>
               </div>
               <div class="portfolio-tags">
+                <div>Presentation</div>
+                <div>Juypiter Notebook</div>
                 <div>Machine Learning</div>
-                <div>Predict</div>
-                <div>Regression</div>
+                <div>Problem Solving</div>
               </div>
               <p>
-                "The online used car market requires an accurate price prediction method to prevent losses for both sellers and buyers. Data analysis is essential for understanding the factors that influence price and improving marketability.
+                The online used car market requires an accurate price prediction method to prevent losses for both sellers and buyers. Data analysis is essential for understanding the factors that influence price and improving marketability.
               </p>
             </div>
           </div>
-
-          <!-- Portfolio 3 -->
-          <div class="portfolio">
+    
+          <!-- Portfolio Item 3 -->
+          <div class="portfolio Strategic">
             <div class="portfolio-cover">
-              <img
-                src="./images/segmentasi.jpeg"
-                alt="Portfolio 3"
-              />
+              <img src="./images/segmentasi.jpeg" alt="portfolio 3">
             </div>
             <div class="portfolio-info">
               <div class="portfolio-title">
                 <h4>Segmentation Customer with RFM</h4>
-                <a href="https://www.canva.com/design/DAGYm4GOuAU/G4hEzD6OtdBcXDRWPF6vbQ/edit?utm_content=DAGYm4GOuAU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="portfolio-link">
+                <a href="hhttps://www.canva.com/design/DAGYm4GOuAU/G4hEzD6OtdBcXDRWPF6vbQ/edit?utm_content=DAGYm4GOuAU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton" class="portfolio-link">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width="24"
@@ -253,19 +258,261 @@
                 </a>
               </div>
               <div class="portfolio-tags">
-                <div>Segmentation</div>
-                <div>RFM</div>
-                <div>E-Commers</div>
+                <div>Presentation</div>
+                <div>Juypiter Notebook</div>
+                <div>Dashboard</div>
+                <div>E-Commerce Problem</div>
+                <div>RFM Analyze</div>
+                <div>Collaboration</div>
               </div>
               <p>
-Customer segmentation using RFM is a highly effective tool for comprehending customer behavior and enhancing business performance. By categorizing customers based on their purchasing behavior, businesses can deliver more personalized and relevant experiences, thereby increasing customer satisfaction and driving business growth.
+                Customer segmentation using RFM is a highly effective tool for comprehending customer behavior and enhancing business performance. By categorizing customers based on their purchasing behavior, businesses can deliver more personalized and relevant experiences, thereby increasing customer satisfaction and driving business growth.
               </p>
             </div>
           </div>
+    
+          <!-- Portfolio Project Methodology -->
+         
+          <!-- Portfolio Project 1 -->
+          <div class="portfolio Project">
+            <div class="portfolio-cover">
+              <img src="./images/CRUD.jpg" alt="portfolio pro 1">
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-title">
+                <h4>CRUD Rental Car Management Application</h4>
+                <a href="https://github.com/ghaisanr/python_crud_program_rentalcar">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio-tags">
+                <div>Python</div>
+              </div>
+              <p>
+                A comprehensive Python-based application designed to efficiently manage rental car data for both Admins and Customers. The system supports essential CRUD (Create, Read, Update, Delete) operations, customer booking requests, and order approvals.
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio Project 2 -->
+          <div class="portfolio Project">
+            <div class="portfolio-cover">
+              <img src="./images/linkedin.png" alt="portfolio pro 2">
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-title">
+                <h4>LinkedIn Review Scraper</h4>
+                <a href="https://github.com/ghaisanr/Anlysis-Linkedin-Review">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio-tags">
+                <div>Python</div>
+                <div>Juypiter Notebook</div>
+                <div>Medium</div>
+                <div>MYSQL</div>
+                <div>Google Play Scrapper</div>
+                <div>Word Cloud</div>
+                <div>Collaboration</div>
+              </div>
+              <p>
+                This project is a Python-based solution that scrapes LinkedIn reviews from the Google Play Store, stores them in a MySQL database, and performs data analysis using Word Cloud visualization. It leverages the google_play_scraper for data extraction, mysql-connector for database integration, and wordcloud for visualizing the most frequently mentioned words in reviews. The project provides valuable insights from user feedback through text preprocessing and graphical representation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Portfolio Project 3 -->
+          <div class="portfolio Project">
+            <div class="portfolio-cover">
+              <img src="./images/facerecog.jpg" alt="portfolio pro 3">
+            </div>
+            <div class="portfolio-info">
+              <div class="portfolio-title">
+                <h4>Face Recognition System for Attendance Management</h4>
+                <a href="https://www.canva.com/design/DAGcVisds6s/jmcTlnlCoA9PiIAplEtJMA/view">
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      d="M6 17c2.269-9.881 11-11.667 11-11.667v-3.333l7 6.637-7 6.696v-3.333s-6.17-.171-11 5zm12 .145v2.855h-16v-12h6.598c.768-.787 1.561-1.449 2.339-2h-10.937v16h20v-6.769l-2 1.914z"
+                    />
+                  </svg>
+                </a>
+              </div>
+              <div class="portfolio-tags">
+                <div>Presentation</div>
+                <div>Python</div>
+                <div>Juypiter Notebook</div>
+                <div>Machine Learning</div>
+                <div>AI</div>
+                <div>Deep Learning</div>
+                <div>Collaboration</div>
+              </div>
+              <p>
+                This project implements a face recognition-based attendance system using Jupyter Notebooks and facial recognition technology. It features user-friendly face registration and automatic attendance logging. The system leverages powerful libraries such as OpenCV, DeepFace, and scikit-learn to ensure accurate detection and recognition. Attendance logs are stored in CSV files for easy access and tracking. Future enhancements include integrating a GUI and improving accuracy under varying conditions.
+              </p>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>
     <!-- End Portfolios -->
+
+
+    <!-- Certificate Gallery -->
+    <section id="gallery">
+      <div class="gallery main-container">
+        <h3 class="pre-title">Experience</h3>
+        <h1 class="section-title">Certificate & Gallery</h1>
+        <div class="grid-3">
+    
+          <!-- Certificate Gallery 1 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/Kampung inggris/kp1.jpg" alt="exp kp 1">
+              <img src="./images/Gallery/Kampung inggris/kp2.jpg" alt="exp kp 2">
+              <img src="./images/Gallery/Kampung inggris/Sertif Kampung inggris_pages-to-jpg-0001.jpg" alt="Certificate kp 1">
+              <img src="./images/Gallery/Kampung inggris/Sertif Kampung inggris_pages-to-jpg-0002.jpg" alt="Certificate kp 2">
+              <img src="./images/Gallery/Kampung inggris/Sertif Kampung inggris_pages-to-jpg-0003.jpg" alt="Certificate kp 3">
+            </div>
+            <div class="caption">
+              <h3>Kampung Inggris</h3>
+              <p>2 Months and TOEFL Program</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/file/d/1QyagCij1tt-b6k6XEDA-KLICsVH-N4Ee/view?usp=drive_link', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+    
+          <!-- Certificate Gallery 2 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/SAP B1/SAP B1.jpeg" alt="exp SAP">
+              <img src="./images/Gallery/SAP B1/Certificate SAP B1.jpg" alt="Certificate SAP">
+            </div>
+            <div class="caption">
+              <h3>SAP B1</h3>
+              <p>ERP Application System</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/file/d/1eLbbWNMvMfW8VZViD5K_rnOsXxJFLY2x/view?usp=drive_link', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate Gallery 3 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/Purwadhika/Purwadhika 1.jpeg" alt="exp Purwadhika 1">
+              <img src="./images/Gallery/Purwadhika/Purwadhika 2.jpeg" alt="exp Purwadhika 2">
+            </div>
+            <div class="caption">
+              <h3>Data Science</h3>
+              <p>Purwadhika Digital Technology School</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/drive/folders/18Om-12rb4eSJeP6aKz1fhXFVVHUDLFoI', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate Gallery 4 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/Forkalam/FORKALAM 1.png" alt="exp FORKALAM 1">
+              <img src="./images/Gallery/Forkalam/FORKALAM 2.jpeg" alt="exp FORKALAM 2">
+            </div>
+            <div class="caption">
+              <h3>FORKALAM</h3>
+              <p>Head of The KP Department</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/drive/folders/1bBpc82BKPmt7GXyP0TTtarPiwlnQZKnP', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+    
+          <!-- Certificate Gallery 5 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/PROBINMABA/Probin1.jpeg" alt="exp Probin 1">
+              <img src="./images/Gallery/PROBINMABA/Probin2.jpeg" alt="exp Probin 2">
+              <img src="./images/Gallery/PROBINMABA/Steering Committee_Ghaisan Rabbani_page-0001.jpg" alt="Certificate Probin">
+            </div>
+            <div class="caption">
+              <h3>PROBINMABA FMIPA UB</h3>
+              <p>Steering coomite</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/file/d/1Y34fVG7StCCa7uf-Aef0KSOjCDT0hH8S/view?usp=drive_link', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate Gallery 6 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/BAPPENDA/1.png" alt="exp BAPPENDA 1">
+              <img src="./images/Gallery/BAPPENDA/2.png" alt="exp BAPPENDA2">
+            </div>
+            <div class="caption">
+              <h3>BAPPENDA</h3>
+              <p>Internship</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/drive/folders/1cc-4vtWgIcI1L6yE8BI3kJhMjXSQ2CXv', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate Gallery 7 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/TOEFL/sertifikat TOEFL_page-0001.jpg" alt="Certificate TOEFL 1">
+            </div>
+            <div class="caption">
+              <h3>TOEFL ITP</h3>
+              <p>English Achievement</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/file/d/1aKPRy-xMeIARJyco_FBjlksgR-btYhZk/view?usp=drive_link', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+
+          <!-- Certificate Gallery 8 -->
+          <div class="gallery-item">
+            <div class="gallery-images">
+              <img src="./images/Gallery/Microsoft/Sertif microsoft_page-0001.jpg" alt="Certificate Microsoft 1">
+            </div>
+            <div class="caption">
+              <h3>Microsoft</h3>
+              <p>Trust Training Partners</p>
+              <button class="action-btn" onclick="window.open('https://drive.google.com/file/d/1YUwA67Dn0IPpBS6EAS8p_Ks6wBqYbBAW/view?usp=drive_link', '_blank')">
+                Explore
+              </button>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+    </section>
 
     <!-- Skills & Education -->
     <section id="skills">
@@ -280,9 +527,9 @@ Customer segmentation using RFM is a highly effective tool for comprehending cus
                 <div></div>
               </div>
               <div class="education-info">
-                <h4 class="education-title">purwadhika</h4>
+                <h4 class="education-title">Purwadhika Digital Technology School</h4>
                 <p>Courses - Data science</p>
-                <h4 class="education-years">2024-Now</h4>
+                <h4 class="education-years">2024-2025</h4>
               </div>
             </div>
             <div class="education">
@@ -316,16 +563,20 @@ Customer segmentation using RFM is a highly effective tool for comprehending cus
             <div class="skills-list">
               <ul>
                 <li>MySQL</li>
+                <li>VSCode</li>
                 <li>Python</li>
                 <li>Tablaeu</li>
                 <li>SAP B-1</li>
+                <li>scikit-learn</li>
               </ul>
 
               <ul>
-                <li>Photoshop</li>
-                <li>Canva</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Jupyter Notebook</li>
                 <li>Microsoft Office</li>
                 <li>Microsoft Excel</li>
+                <li>Microsoft power point</li>
               </ul>
             </div>
           </div>
@@ -481,10 +732,9 @@ Customer segmentation using RFM is a highly effective tool for comprehending cus
           </svg>
         </a>
       </div>
-      <p>&#169; 2023 - Made by Night Coder</p>
+      <p>&#169; 2025 - Made by ghaisanr</p>
     </footer>
     <!-- End Footer -->
-
-    <script src="js/main.js"></script>
+    <script src="styles/script.js"></script>
   </body>
 </html>

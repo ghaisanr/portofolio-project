@@ -73,6 +73,7 @@
       font-size: 0.8rem;
     }
   
+    
     /* Hero Section */
     #hero {
       grid-template-columns: 1fr;
@@ -98,13 +99,42 @@
   
     .hero-left .pre-title {
       margin: 0 auto;
+
     }
   
     .hero-name {
       font-size: 2.3rem;
       margin-bottom: 0.5rem;
     }
+    
+
+    .change-text {
+      position: relative;
+      left: 50%;
+      transform: translateX(-60%);
+      margin-bottom: 0.5rem;
+      
+    }
+     
+    .change-text h3, .word {
+      font-size: 1em;
+      margin-bottom: 0.5rem;
+    }
+
+    .gallery-images {
+      height: 180px;
+    }
   
+    .caption {
+      font-size: 14px;
+      padding: 0.5rem;
+    }
+  
+    .action-btn {
+      font-size: 12px;
+    }
+  }
+    
     /* Skills Section */
     .skills-grid {
       gap: 1rem;
